@@ -455,9 +455,14 @@ a:hover {
 }
 
 /* 4.5 contact */
-.contact-wrapper .icon-design{
-    width: 3.625rem ;
-    height: 3.625rem ;
+.contact-wrapper .contact-icon-design{
+    width: 2rem ;
+    height: 2rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--secondry-color);
 }
 
 .contact-wrapper form .form-control:focus{
