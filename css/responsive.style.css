@@ -1,0 +1,258 @@
+@media (max-width:1400px) {
+    /* 4.4 services */
+}
+
+@media (max-width:1251px) {
+    /* custom css */
+    h1{
+        font-size: 4.375rem;
+    }
+    h2{
+        font-size: 2.1875rem;
+    }
+    h3{
+        font-size: 1.4375rem;
+    }
+
+    /* accordian */
+    .main-menu-wrapper .accordion-body{
+        padding: 2.25rem;
+    }
+    /* about */
+    .about-wrapper .card-details{
+        padding: 0.625rem;
+    }
+
+    /* services */
+
+    .services-wrapper .card{
+        min-height: 400px;
+    }
+
+    .services-wrapper h3{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:992px) {
+    /* custom css */
+    h1{
+        font-size: 3.125rem;
+        line-height: 1.3;
+    }
+    h2{
+        font-size: 1.875rem;
+    }
+    h3{
+        font-size: 1.25rem;
+    }
+    a{
+        font-size: 1rem;
+    }
+    .icon-design{
+        width: 4.625rem;
+        height: 4.625rem;
+    }
+
+    /* accordian */
+    .main-menu-wrapper .accordion-header .accordion-button{
+        line-height: 5.875rem;
+    }
+    .main-menu-wrapper .accordion-header .icon-box,
+    .main-menu-wrapper .accordion-header .accordion-button::after{
+        width: 6rem;
+    }
+
+     /* services */
+
+     .services-wrapper .card{
+        min-height: 390px;
+    }
+
+    .services-wrapper h3{
+        margin-top: 10px;
+    }
+
+}
+
+@media (max-width:767px) {
+    /* custom css */
+    h1{
+        font-size: 1.875rem;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
+    h3{
+        font-size: 1.125rem;
+    }
+    h5{
+        font-size: 0.9375rem;
+    }
+    p{
+        font-size: 0.875rem;
+    }
+
+    /* resume */
+    .resume-wrapper .title h2{
+        font-size: 1.25rem;
+    }
+    .resume-wrapper h4{
+        font-size: 1rem !important;
+    }
+
+     /* services */
+
+     .services-wrapper .card{
+        min-height: 300px;
+    }
+
+    .services-wrapper h3{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    /* custom css */
+    a{
+        font-size: 0.8125rem;
+    }
+    .main-btn{
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8125rem;
+    }
+
+    /* navbar */
+    .header-wrapper .navbar-brand{
+        padding: 0;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+    }
+    .navbar-brand span:nth-child(1){
+        color: var(--primary-text);
+        font-size: 2rem ;
+    }
+    .navbar-brand span:nth-child(2){
+        color: var(--secondry-color);
+        font-size: 0.8rem;
+    }
+
+    /* banner */
+    .banner-wrapper .social-icon a i{
+        font-size: 2rem;
+        transition: 0.3s ease-in;
+    }
+
+    /* accordian */
+
+    .main-menu-wrapper .accordion-header .icon-box i {
+        font-size: 3rem;
+        padding: 30px 0;
+    }
+    .main-menu-wrapper .accordion-header .accordion-button{
+        line-height: 5.875rem;
+    }
+    .main-menu-wrapper .accordion-header .icon-box,
+    .main-menu-wrapper .accordion-header .accordion-button::after{
+        width: 6rem;
+    }
+
+
+
+    /* about  */
+    .about-wrapper .card-details{
+
+        position: relative;
+        top: 1rem;
+        right: inherit;
+        z-index: 1;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 0.5rem 0.521rem;
+        border-radius: .9375rem;
+    }
+
+    .about-wrapper .accordion-body .card-img{
+        width: 100%;
+        border: 0;
+        border-radius: 0.9375rem;
+    }
+    .about-wrapper .accordion-body .card-img img{
+        border-radius: 0.9375rem;
+        width: 100%;
+    }
+    .about-wrapper .card-details ul li{
+        border-bottom: 0.0625rem solid rgba(255,255,255,0.3);
+        padding: 0 !important;
+    }
+
+    .about-wrapper .card-details ul li h6,
+    .about-wrapper .card-details ul li span{
+        font-size: 0.7rem !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .about-text{
+        margin: 0;
+    }
+
+    /* resume */
+    .resume-wrapper .title h2{
+        font-size: 1.25rem;
+    }
+    .resume-wrapper h4{
+        font-size: 1rem !important;
+    }
+    .resume-wrapper .year span{
+        font-size: 0.875rem;
+        padding: 0.4375rem;
+        margin-top: 1.25rem;
+        display: inline-block;
+    }
+
+    .resume-wrapper .progress{
+        height: 0.4375rem;
+        border-radius: 3.125rem;
+        background: var(--dark-light-color);
+        opacity: 0.80;
+        margin-top: 1.125rem;
+    }
+    .resume-wrapper .progress-bar{
+        background-color: var(--primary-color);
+        position: absolute;
+        height: 0.3125rem;
+        top:2rem;
+        border-radius: 3.125rem;
+    }
+
+    .resume-wrapper .progress span{
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: var(--primary-color);
+    }
+
+    /* services */
+
+    .services-wrapper .card{
+        min-height: 290px;
+    }
+
+    .services-wrapper h3{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:490px) {
+
+    /* portfolio */
+    .portfolio-wrapper .nav-link{
+        padding: 0 0.625rem;
+    }
+    .portfolio-wrapper .portfolio-img{
+        min-height: unset;
+    }
+
+
+}
