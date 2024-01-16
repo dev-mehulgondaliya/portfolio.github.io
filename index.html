@@ -9,6 +9,7 @@
 
     <!-- fontawsome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- bootstrap 5 cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
@@ -552,7 +553,8 @@
                                                             <div class="hidden-text">
                                                                 <img src="images/portfolio/portfolio.svg" alt="">
                                                                 <h5 class="mb-1 mt-5 text-white">Temple Web App</h5>
-                                                                <p class="m-0 text-white">ReactJs | TailwindCSS | .ASPNet Rest API</p>
+                                                                <p class="m-0 text-white">ReactJs | TailwindCSS |
+                                                                    .ASPNet Rest API</p>
                                                                 <p class="mt-2 text-white">
                                                                     <a target="_blank"
                                                                         href="https://templewebapp.netlify.app/"
@@ -932,7 +934,10 @@
                                                     </span>
                                                     <div class="ps-4">
                                                         <h5 class="text-white fw-bold mb-0">Call Me</h5>
-                                                        <p class="m-0">+91 7016 105 705</p>
+                                                        <p class="m-0">
+                                                            <span id="phone">+91 7016 105 705</span>
+                                                            <i onclick="copyText('phone')" class="fa-regular fa-copy p-2"></i>
+                                                        </p>
                                                     </div>
                                                 </li>
                                                 <li class="d-flex mt-3">
@@ -942,7 +947,10 @@
                                                     </span>
                                                     <div class="ps-4">
                                                         <h5 class="text-white fw-bold mb-0">Email</h5>
-                                                        <p class="m-0">dev.mehulgondaliya@gmail.com</p>
+                                                        <p class="m-0 d-flex gap-1">
+                                                            <span id="email" class="d-inline-block text-wrap text-break">dev.mehulgondaliya@gmail.com</span>
+                                                            <i onclick="copyText('email')"  class="fa-regular fa-copy p-2 bg-transparent"></i>
+                                                        </p>
                                                     </div>
                                                 </li>
                                                 <li class="d-flex mt-3">
@@ -952,53 +960,52 @@
                                                     </span>
                                                     <div class="ps-4">
                                                         <h5 class="text-white fw-bold mb-0">Address</h5>
-                                                        <p class="m-0">Jeevandeep, street no. 7,<br>
-                                                            Takudipara - Jetpur(3603700), Rajkot</p>
+                                                        <p class="m-0">Jeevandeep, street no. 7,<br> Takudipara -
+                                                            Jetpur(3603700), Rajkot</p>
                                                     </div>
                                                 </li>
-
-
                                             </ul>
                                         </div>
-                                        <div class="col-md-6 d-none">
-                                            <form action="">
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-12 mb-4">
-                                                        <input type="text" class="form-control" placeholder="Your Name"
-                                                            autocomplete="off">
-                                                    </div>
-                                                    <div class="col-sm-6 col-12 mb-4">
-                                                        <input type="email" class="form-control"
-                                                            placeholder="Your Email" autocomplete="off">
-                                                    </div>
+                                    </div>
+                                    <div class="col-md-6 d-none">
+                                        <form action="">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-12 mb-4">
+                                                    <input type="text" class="form-control" placeholder="Your Name"
+                                                        autocomplete="off">
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-12 mb-4">
-                                                        <input type="number" class="form-control"
-                                                            placeholder="Your Phone" autocomplete="off">
-                                                    </div>
-                                                    <div class="col-sm-6 col-12 mb-4">
-                                                        <input type="text" class="form-control"
-                                                            placeholder="Your Subject" autocomplete="off">
-                                                    </div>
+                                                <div class="col-sm-6 col-12 mb-4">
+                                                    <input type="email" class="form-control" placeholder="Your Email"
+                                                        autocomplete="off">
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col-12 mb-4">
-                                                        <textarea name="" class="form-control" id="" cols="30" rows="5"
-                                                            placeholder="Your Message"></textarea>
-                                                    </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-sm-6 col-12 mb-4">
+                                                    <input type="number" class="form-control" placeholder="Your Phone"
+                                                        autocomplete="off">
                                                 </div>
-                                                <button class="btn main-btn">Submit Now</button>
-                                            </form>
-                                        </div>
+                                                <div class="col-sm-6 col-12 mb-4">
+                                                    <input type="text" class="form-control" placeholder="Your Subject"
+                                                        autocomplete="off">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-12 mb-4">
+                                                    <textarea name="" class="form-control" id="" cols="30" rows="5"
+                                                        placeholder="Your Message"></textarea>
+                                                </div>
+                                            </div>
+                                            <button class="btn main-btn">Submit Now</button>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
+
                 </div>
             </div>
+        </div>
     </section>
 
     <!-- main menu exit -->
@@ -1027,6 +1034,21 @@
     <!-- custom js -->
     <script src="js/main.js"></script>
     <script src="js/database.js"></script>
+
+    <script>
+        function copyText(id) {
+            var textToCopy = document.getElementById(id).innerText;
+
+            var tempInput = document.createElement("input");
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand("copy");
+            document.body.removeChild(tempInput);
+
+            alert("Copied: " + textToCopy);
+        }
+    </script>
 </body>
 
 </html>
